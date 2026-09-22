@@ -6,8 +6,11 @@ body {
   margin: 0;
   background-color: #2a2a2a;
   color: #eeeeee;
-
   font-family: Consolas, monospace;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .brand {
@@ -51,4 +54,8 @@ footer {
 
   font-size: 12px;
   color: #aaaaaa;
+}
+
+main {
+  flex: 1;
 }
