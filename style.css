@@ -32,6 +32,47 @@ body {
   font-size: 16px;
 }
 
+.projects {
+  margin-top: 64px;
+}
+
+.projects h2 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.project-card {
+  width: 450px;
+  min-height: 160px;
+
+  padding: 20px;
+
+  background-color: #1a1a1a;
+  border: 1px solid #333333;
+}
+
+.project-card h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.project-card p {
+  margin: 12px 0 24px 0;
+
+  color: #888888;
+  font-size: 14px;
+}
+
+.project-tech {
+  display: flex;
+  gap: 12px;
+
+  color: #aaaaaa;
+  font-size: 12px;
+}
+
 .intro h1 {
   margin: 0;
   font-size: 24px;
