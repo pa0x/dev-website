@@ -13,6 +13,25 @@ body {
   flex-direction: column;
 }
 
+.technologies {
+  margin-top: 64px;
+}
+
+.technologies h2 {
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.tech-list {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  gap: 12px 32px;
+
+  color: #aaaaaa;
+  font-size: 16px;
+}
+
 .intro h1 {
   margin: 0;
   font-size: 24px;
