@@ -167,3 +167,27 @@ main {
     padding: 0 20px;
   }
 }
+
+.project-card summary {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.project-card summary::after {
+  content: "[+]";
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  color: #888888;
+  font-size: 14px;
+}
+
+.project-card[open] summary::after {
+  content: "[-]";
+}
+
+.project-card summary::-webkit-details-marker {
+  display: none;
+}
