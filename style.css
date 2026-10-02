@@ -204,9 +204,7 @@ main {
 }
 
 .project-preview {
-  display: flex;
-  align-items: flex-start;
-  padding-top: 80px;
+  padding-top: 140px;
 }
 
 .project-preview img {
