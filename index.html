@@ -75,5 +75,20 @@
     </div>
 
   </div>
+<script>
+  const projects = document.querySelectorAll(".project-card");
+  const projectImage = document.getElementById("project-image");
 
+  projects.forEach(project => {
+    project.addEventListener("toggle", () => {
+      if (project.open) {
+        projectImage.src = project.dataset.image;
+        projectImage.style.display = "block";
+      } else {
+        projectImage.style.display = "none";
+        projectImage.src = "";
+      }
+    });
+  });
+</script>
 </main>
