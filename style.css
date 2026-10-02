@@ -67,8 +67,9 @@ body {
 
 .top-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
+  grid-template-columns: 500px 700px;
+  gap: 80px;
+  align-items: start;
 }
 
 
@@ -204,14 +205,14 @@ main {
 
 .project-preview {
   display: flex;
-  justify-content: flex-end;
   align-items: flex-start;
+  padding-top: 80px;
 }
 
 .project-preview img {
   display: none;
   width: 100%;
-  max-width: 550px;
+  max-width: 700px;
   height: auto;
   border: 1px solid #444444;
 }
