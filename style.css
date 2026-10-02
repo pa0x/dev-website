@@ -71,9 +71,6 @@ body {
   gap: 64px;
 }
 
-.project-preview {
-  min-height: 300px;
-}
 
 .project-tech {
   display: flex;
