@@ -106,13 +106,14 @@ nav a {
 
 header {
   height: 64px;
-  background-color: #202020;
+  background-color: #35439C;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   padding: 0 32px;
+  border-bottom: 1px solid #444444;
 }
 
 footer {
