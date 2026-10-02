@@ -201,3 +201,17 @@ main {
 .project-card summary::-webkit-details-marker {
   display: none;
 }
+
+.project-preview {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.project-preview img {
+  display: none;
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+  border: 1px solid #444444;
+}
